@@ -22,7 +22,7 @@ let htmlContentToAppend = "";
                     <div class="col">
                         <div class="d-flex w-100 justify-content-between">
                             <h4 class="mb-1">`+ product.name +`</h4>
-                            <small class="text-muted">` + product.cost `</small>
+                            <small class="text-muted">` + product.cost + product.currency + `</small>
                         </div>
                         <p class="mb-1">` + product.description + `</p>
                     </div>
