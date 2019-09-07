@@ -2,11 +2,13 @@
 
 //} 
 
+var currentProductsArray = []
+
 function showProductsList(array){
 
 let htmlContentToAppend = "";
-    for(let i = 0; i < currentCategoriesArray.length; i++){
-        let product = currentCategoriesArray[i];
+    for(let i = 0; i < currentProductsArray.length; i++){
+        let product = currentProductsArray[i];
 
        // if (((minCount == undefined) || (minCount != undefined && parseInt(product.productCount) >= minCount)) &&
        //     ((maxCount == undefined) || (maxCount != undefined && parseInt(product.productCount) <= maxCount))){
